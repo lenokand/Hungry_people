@@ -57,22 +57,24 @@ menu{
 }
 .menu_left div::after, .menu_right div::after{
     position: absolute;
-    left:45%;
+    /* left:45%; */
     top: 40px;
     content:'';
     display: inline-block;
-    opacity: 0;
-    width: 0px;
+     /* width: 0px; */
     height: 2px;
     background-color: #E8C300;
     border-radius: 50px;
-    transition: 500ms ease  ;
+    transition: 500ms ease ;
+    opacity: 0;
+    transform: scaleX(0);
 
 }
 .menu_left div:hover::after, .menu_right div:hover::after{
-    width: 15px;
+    /* width: 15px; */
+    width: 100%;
     opacity: 1;
-    transform: scaleX(3);
+    transform: scaleX(0.5);
 }
 
 .wheel{
@@ -123,8 +125,8 @@ menu{
 .submenu_centr h1:after{
     position: absolute;
     left: 360px;
-    /* left: 50%; */
-    top: 70px;
+    /* left: calc(50%-1px); */
+    top:70px;
     content:'';
     display: inline-block;
     width: 60px;
@@ -162,7 +164,7 @@ menu{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 3   00ms ease;
+    transition: 300ms ease;
     margin: 0 20px 0;
 
 }
