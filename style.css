@@ -19,6 +19,12 @@
     .burger-menu{
         display: none;
     }
+    .menu-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-basis: 100%;
+    }
     .screen1{
         position: relative;
         background-image: url(img/header-bg.png);
@@ -40,7 +46,7 @@
     menu{
         margin: 0 80px 0;
         min-height: 100px;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .menu_left, .menu_right{
@@ -332,7 +338,7 @@
             position: relative;
             margin:  0;
             min-height: 100px;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             flex-direction: column;
         }
     
@@ -357,23 +363,22 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            width: 400px;
+            width:60vh;
             height: 100vh;
-            top:30px;
+            top:-10px;
+            justify-content: center;
               
         }
 
         #main-menu.open .menu_left{
             margin-top: 50px;
         }
-        
-
         #main-menu.open{
             flex-direction: column;
             justify-content: center;
-            /* box-shadow: rgba(59, 56, 56, 0.671) 2px 2px 1px; */
-
+            
         }
+
         #shadow {
             display: none;
             position: fixed;
