@@ -505,7 +505,7 @@
             left: -35px;
               
         }
-        /* .burger{
-            left: 10px;
-        }    */
+        .burger{
+            right: 10px;
+        }   
     }
