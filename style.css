@@ -501,12 +501,12 @@
             position: absolute;
             width:260px;
             height: 100vh;
-            top: 40px;
+            top: 10px;
             justify-content: center;
             left: -45px;
               
         }
-        .burger{
+        /* .burger{
             left: 290px;
-        }   
+        }    */
     }
