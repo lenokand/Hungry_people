@@ -427,7 +427,9 @@
     }
 
     @media screen and (max-width: 576px){
-        
+        .screen1{
+            height: auto;
+        }
         .submenu_centr h1{
             font-size: 25px;
             line-height: -90px;
