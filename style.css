@@ -500,9 +500,9 @@
             position: absolute;
             width:240px;
             height: 100vh;
-            top: 40px;
+            top: 10px;
             justify-content: center;
-            left: -65px;
+            left: -35px;
               
         }
         /* .burger{
