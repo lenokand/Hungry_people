@@ -495,13 +495,12 @@
         }
 
         .menu-menu{
-            padding: 50px;
             display: flex;
             flex-direction: column;
             position: absolute;
             max-width:240px;
             height: 100vh;
-            top: -30px;
+            top: 0px;
             justify-content: center;
             left: -45px;
               
