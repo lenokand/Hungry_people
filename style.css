@@ -483,14 +483,14 @@
         .submenu_buttons{
               flex-direction: column;
               justify-content: space-between;
-              height: 45vh;
+              height: 140px;
           }
 
 
           .submenu_buttons div{
             
             min-width: 50px;
-            min-width: 25px;
+            min-height: 25px;
             display: flex;
             margin: 15px 20px 0;
     
