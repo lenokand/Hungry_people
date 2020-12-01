@@ -489,8 +489,8 @@
 
           .submenu_buttons div{
             
-            width: 50vw;
-            height: 15vh;
+            width: 50px;
+            height: 15px;
             display: flex;
             margin: 20px 20px 0;
     
@@ -501,7 +501,7 @@
             flex-direction: row;
             justify-content: space-around;
         }
-
+        
         /* .menu-menu{
             
             display: flex;
